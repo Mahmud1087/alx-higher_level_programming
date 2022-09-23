@@ -15,3 +15,18 @@ if __name__ == '__main__':
     print(line1)
     for i, arg in enumerate(args):
         print("{:d}: {:s}".format(i+1, arg))
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> f5d835d2890664e35bf1f6c7ad1136b441acb02c
