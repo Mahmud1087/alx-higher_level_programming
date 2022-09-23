@@ -15,18 +15,3 @@ if __name__ == '__main__':
     print(line1)
     for i, arg in enumerate(args):
         print("{:d}: {:s}".format(i+1, arg))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
