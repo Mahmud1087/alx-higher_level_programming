@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-def multiply_by_2(a_dictionary):
+
+def multiply_by_2(a_dict):
     """
-    multiplies each values by 2
+    add or replace a new key value in dict
     """
-    newDict = {}
-    for i in a_dictionary:
-        anotherDict = {i:a_dictionary[i]*2}
-        newDict.update(anotherDict)
-    return newDict
+    if a_dict is None:
+        return None
+    return {
+        key: a_dict[key] * 2 for key in a_dict
+    }
